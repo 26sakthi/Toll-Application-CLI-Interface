@@ -5,7 +5,9 @@ package com.toll.model.enums;
  */
 public enum TripType {
     SINGLE("Single One-Way Journey"),
-    RETURN("Return Journey within 24 Hours");
+    RETURN("Return Journey within 24 Hours"),
+    PASS("Monthly Pass Crossing"),
+    EMERGENCY("Emergency Exempt Bypass");
 
     private final String description;
 
